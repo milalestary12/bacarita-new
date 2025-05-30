@@ -8,8 +8,7 @@ use App\Models\DetailPembelian;
 use App\Models\Supplier;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use Barryvdh\DomPDF\Facade;
-use Barryvdh\DomPDF\Facade as PDF;
+use Barryvdh\DomPDF\Facade\Pdf;
 
 class PembelianController extends Controller
 {

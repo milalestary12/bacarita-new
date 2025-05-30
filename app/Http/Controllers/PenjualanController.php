@@ -8,7 +8,7 @@ use App\Models\DetailPenjualan;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
-use PDF;
+use Barryvdh\DomPDF\Facade\Pdf;
 
 class PenjualanController extends Controller
 {
